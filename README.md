@@ -102,8 +102,7 @@ If you are developing a production application, we recommend updating the config
   **Como conectar ao backend**
 
   1. Inicie a API do backend (veja https://github.com/abswing/Biblioteca). Por padrão o backend costuma rodar em `http://localhost:3000` (verifique o `docker-compose` ou o `src/app.ts` do backend).
-  2. Defina `VITE_API_BASE_URL` no `.env` para apontar para a URL da API.
-  3. Inicie o frontend com `npm run dev`.
+  2. Inicie o frontend com `npm run dev`.
 
   Os serviços em `src/service/*.ts` usam `VITE_API_BASE_URL` para compor as rotas da API.
 

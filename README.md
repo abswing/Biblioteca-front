@@ -15,8 +15,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
+
   # Biblioteca (Frontend)
 
   Este repositório contém o frontend da aplicação Biblioteca — uma interface construída com React + TypeScript + Vite para consumir a API do backend do projeto.
